@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6D2D06E0-22EF-4A74-8F74-81A5F228BE9E}|LoginTeste\\AppCadastro.csproj|c:\\users\\azs90\\source\\repos\\appmobile-bruno\\loginteste\\usuariopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2D06E0-22EF-4A74-8F74-81A5F228BE9E}|LoginTeste\\AppCadastro.csproj|solutionrelative:loginteste\\usuariopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2D06E0-22EF-4A74-8F74-81A5F228BE9E}|LoginTeste\\AppCadastro.csproj|c:\\users\\azs90\\source\\repos\\appmobile-bruno\\loginteste\\usuariopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6D2D06E0-22EF-4A74-8F74-81A5F228BE9E}|LoginTeste\\AppCadastro.csproj|solutionrelative:loginteste\\usuariopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6D2D06E0-22EF-4A74-8F74-81A5F228BE9E}|LoginTeste\\AppCadastro.csproj|c:\\users\\azs90\\source\\repos\\appmobile-bruno\\loginteste\\produtospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D2D06E0-22EF-4A74-8F74-81A5F228BE9E}|LoginTeste\\AppCadastro.csproj|solutionrelative:loginteste\\produtospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D2D06E0-22EF-4A74-8F74-81A5F228BE9E}|LoginTeste\\AppCadastro.csproj|c:\\users\\azs90\\source\\repos\\appmobile-bruno\\loginteste\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D2D06E0-22EF-4A74-8F74-81A5F228BE9E}|LoginTeste\\AppCadastro.csproj|solutionrelative:loginteste\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6D2D06E0-22EF-4A74-8F74-81A5F228BE9E}|LoginTeste\\AppCadastro.csproj|c:\\users\\azs90\\source\\repos\\appmobile-bruno\\loginteste\\produtospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6D2D06E0-22EF-4A74-8F74-81A5F228BE9E}|LoginTeste\\AppCadastro.csproj|solutionrelative:loginteste\\produtospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D2D06E0-22EF-4A74-8F74-81A5F228BE9E}|LoginTeste\\AppCadastro.csproj|c:\\users\\azs90\\source\\repos\\appmobile-bruno\\loginteste\\cadastroprodutopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D2D06E0-22EF-4A74-8F74-81A5F228BE9E}|LoginTeste\\AppCadastro.csproj|solutionrelative:loginteste\\cadastroprodutopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D2D06E0-22EF-4A74-8F74-81A5F228BE9E}|LoginTeste\\AppCadastro.csproj|c:\\users\\azs90\\source\\repos\\appmobile-bruno\\loginteste\\cadastroprodutopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -25,6 +25,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{6D2D06E0-22EF-4A74-8F74-81A5F228BE9E}|LoginTeste\\AppCadastro.csproj|c:\\users\\azs90\\source\\repos\\appmobile-bruno\\loginteste\\resources\\theme\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6D2D06E0-22EF-4A74-8F74-81A5F228BE9E}|LoginTeste\\AppCadastro.csproj|solutionrelative:loginteste\\resources\\theme\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2D06E0-22EF-4A74-8F74-81A5F228BE9E}|LoginTeste\\AppCadastro.csproj|c:\\users\\azs90\\source\\repos\\appmobile-bruno\\loginteste\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6D2D06E0-22EF-4A74-8F74-81A5F228BE9E}|LoginTeste\\AppCadastro.csproj|solutionrelative:loginteste\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2D06E0-22EF-4A74-8F74-81A5F228BE9E}|LoginTeste\\AppCadastro.csproj|c:\\users\\azs90\\source\\repos\\appmobile-bruno\\loginteste\\cadastroprodutopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2D06E0-22EF-4A74-8F74-81A5F228BE9E}|LoginTeste\\AppCadastro.csproj|solutionrelative:loginteste\\cadastroprodutopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -44,7 +52,7 @@
               "RelativeDocumentMoniker": "LoginTeste\\CadastroProdutoPage.xaml",
               "ToolTip": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\CadastroProdutoPage.xaml",
               "RelativeToolTip": "LoginTeste\\CadastroProdutoPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-18T19:05:05.651Z",
               "IsPinned": true,
@@ -52,13 +60,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProdutosPage.xaml",
               "DocumentMoniker": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\ProdutosPage.xaml",
               "RelativeDocumentMoniker": "LoginTeste\\ProdutosPage.xaml",
               "ToolTip": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\ProdutosPage.xaml",
               "RelativeToolTip": "LoginTeste\\ProdutosPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-18T19:05:14.706Z",
               "IsPinned": true,
@@ -66,26 +74,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "LoginTeste\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\MainPage.xaml.cs",
-              "RelativeToolTip": "LoginTeste\\MainPage.xaml.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowDUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UsuarioPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\UsuarioPage.xaml.cs",
+              "RelativeDocumentMoniker": "LoginTeste\\UsuarioPage.xaml.cs",
+              "ToolTip": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\UsuarioPage.xaml.cs",
+              "RelativeToolTip": "LoginTeste\\UsuarioPage.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwCYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T19:46:33.083Z",
+              "WhenOpened": "2025-06-18T20:04:59.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "UsuarioPage.xaml",
+              "DocumentMoniker": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\UsuarioPage.xaml",
+              "RelativeDocumentMoniker": "LoginTeste\\UsuarioPage.xaml",
+              "ToolTip": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\UsuarioPage.xaml",
+              "RelativeToolTip": "LoginTeste\\UsuarioPage.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-18T20:04:39.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "LoginTeste\\Resources\\Styles\\Colors.xaml",
+              "ToolTip": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "LoginTeste\\Resources\\Styles\\Colors.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-18T19:59:54.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProdutosPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\ProdutosPage.xaml.cs",
               "RelativeDocumentMoniker": "LoginTeste\\ProdutosPage.xaml.cs",
               "ToolTip": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\ProdutosPage.xaml.cs",
               "RelativeToolTip": "LoginTeste\\ProdutosPage.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAcwCMAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T19:35:09.275Z",
               "EditorCaption": ""
@@ -98,20 +132,20 @@
               "RelativeDocumentMoniker": "LoginTeste\\Resources\\Theme\\DarkTheme.xaml",
               "ToolTip": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\Resources\\Theme\\DarkTheme.xaml",
               "RelativeToolTip": "LoginTeste\\Resources\\Theme\\DarkTheme.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-18T19:27:34.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "CadastroProdutoPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\CadastroProdutoPage.xaml.cs",
               "RelativeDocumentMoniker": "LoginTeste\\CadastroProdutoPage.xaml.cs",
               "ToolTip": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\CadastroProdutoPage.xaml.cs",
               "RelativeToolTip": "LoginTeste\\CadastroProdutoPage.xaml.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCMAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAuwDQAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T19:29:49.897Z",
               "EditorCaption": ""

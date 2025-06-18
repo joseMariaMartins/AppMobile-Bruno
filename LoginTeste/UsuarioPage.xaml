@@ -24,6 +24,7 @@
                 Aspect="AspectFit"
                 BorderColor="Transparent"
                 HorizontalOptions="Start"
+                Clicked="btnCaixa_Clicked" 
                 BackgroundColor="Transparent"/>
 
             <ImageButton

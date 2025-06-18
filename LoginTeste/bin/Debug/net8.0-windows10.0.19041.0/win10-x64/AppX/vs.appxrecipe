@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\azs90\source\repos\AppMobile-Bruno\LoginTeste\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-06-18T19:50:39.305</Modified>
+      <Modified>2025-06-18T20:10:02.115</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\azs90\source\repos\AppMobile-Bruno\LoginTeste\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppCadastro.dll">
       <PackagePath>AppCadastro.dll</PackagePath>
-      <Modified>2025-06-18T19:50:34.175</Modified>
+      <Modified>2025-06-18T20:09:58.940</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\azs90\source\repos\AppMobile-Bruno\LoginTeste\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AppCadastro.exe</PackagePath>
-      <Modified>2025-06-18T19:50:34.365</Modified>
+      <Modified>2025-06-18T20:09:59.086</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\azs90\source\repos\AppMobile-Bruno\LoginTeste\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

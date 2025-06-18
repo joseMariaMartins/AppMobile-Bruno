@@ -1,9 +1,11 @@
+using AppCadastro.Resources.Theme;
 using LoginTeste;
 
 namespace AppCadastro;
 
 public partial class UsuarioPage : ContentPage
 {
+    bool darkTheme = false;
     public UsuarioPage()
     {
         InitializeComponent();
@@ -23,6 +25,26 @@ public partial class UsuarioPage : ContentPage
 
     private void Button_Clicked(object sender, EventArgs e)
     {
+        ICollection<ResourceDictionary> mergedDictionaries = Application.Current.Resources.MergedDictionaries;
+        if (mergedDictionaries != null)
+        {
+            mergedDictionaries.Clear();
+            darkTheme = !darkTheme;
+            if (darkTheme)
+            {
 
+                mergedDictionaries.Add(new DarkTheme());
+            }
+            else
+            {
+
+                mergedDictionaries.Add(new WhiteTheme());
+            }
+        }
+    }
+
+    private async void btnCaixa_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new MainPage());
     }
 }

@@ -1,3 +1,5 @@
+using LoginTeste;
+
 namespace AppCadastro;
 
 public partial class CadastroProdutoPage : ContentPage
@@ -51,6 +53,11 @@ public partial class CadastroProdutoPage : ContentPage
                 mergedDictionaries.Add(new Resources.Theme.WhiteTheme());
             }
         }
+    }
+
+    private async void CaixaButton_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new MainPage());
     }
 }
 

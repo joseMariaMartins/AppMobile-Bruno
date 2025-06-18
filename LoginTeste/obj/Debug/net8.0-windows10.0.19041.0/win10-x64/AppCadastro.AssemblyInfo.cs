@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppCadastro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+05866fbd0254f527ca99e372bbd77a60deb2916d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d4d5126eace197928cbd08ac1c0434ba6f11ff0c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppCadastro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppCadastro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

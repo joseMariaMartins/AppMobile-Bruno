@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\azs90\\Source\\Repos\\AppMobile-Bruno\\LoginTeste\\AppCadastro.csproj": {}
+    "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\AppCadastro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\azs90\\Source\\Repos\\AppMobile-Bruno\\LoginTeste\\AppCadastro.csproj": {
+    "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\AppCadastro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azs90\\Source\\Repos\\AppMobile-Bruno\\LoginTeste\\AppCadastro.csproj",
+        "projectUniqueName": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\AppCadastro.csproj",
         "projectName": "AppCadastro",
-        "projectPath": "C:\\Users\\azs90\\Source\\Repos\\AppMobile-Bruno\\LoginTeste\\AppCadastro.csproj",
+        "projectPath": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\AppCadastro.csproj",
         "packagesPath": "C:\\Users\\azs90\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azs90\\Source\\Repos\\AppMobile-Bruno\\LoginTeste\\obj\\",
+        "outputPath": "C:\\Users\\azs90\\source\\repos\\AppMobile-Bruno\\LoginTeste\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

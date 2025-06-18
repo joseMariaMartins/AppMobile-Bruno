@@ -1,3 +1,4 @@
+using AppCadastro.Resources.Theme;
 using LoginTeste;
 
 namespace AppCadastro;
@@ -24,8 +25,6 @@ public partial class ProdutosPage : ContentPage
 
     private void Button_Clicked(object sender, EventArgs e)
     {
-
-
         ICollection<ResourceDictionary> mergedDictionaries = Application.Current.Resources.MergedDictionaries;
         if (mergedDictionaries != null)
         {
@@ -34,13 +33,18 @@ public partial class ProdutosPage : ContentPage
             if (darkTheme)
             {
 
-                mergedDictionaries.Add(new Resources.Theme.DarkTheme());
+                mergedDictionaries.Add(new DarkTheme());
             }
             else
             {
 
-                mergedDictionaries.Add(new Resources.Theme.WhiteTheme());
+                mergedDictionaries.Add(new WhiteTheme());
             }
         }
+    }
+
+    private async void CaixaButton_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new MainPage());
     }
 }

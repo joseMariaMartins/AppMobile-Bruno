@@ -1,1 +1,1 @@
-C:\Users\azs90\Source\Repos\AppMobile-Bruno\LoginTeste\AppCadastro.csproj;x64
+C:\Users\azs90\source\repos\AppMobile-Bruno\LoginTeste\AppCadastro.csproj;x64

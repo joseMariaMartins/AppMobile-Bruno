@@ -3,82 +3,105 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppCadastro.CadastroProdutoPage"
              BackgroundColor="{DynamicResource PageBackgroundColor}">
-        <Grid>
-             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="Auto"/>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <ImageButton Grid.Row="0"
-        HorizontalOptions="End"
-        VerticalOptions="Start"
-        Margin="10"
-        WidthRequest="50"
-        HeightRequest="50"
-        CornerRadius="50"
-        BorderColor="Transparent"
-        Clicked="Button_Clicked"
-        BackgroundColor="{DynamicResource PageBackgroundColor}"
-        Source="{DynamicResource AppSolImage}"/>
+        <Grid Grid.Row="0" Padding="20,10" ColumnDefinitions="*,Auto">
+            <ImageButton 
+                Source="caixa.png"
+                HeightRequest="40"
+                WidthRequest="40"
+                BorderColor="Transparent"
+                HorizontalOptions="Start"
+                BackgroundColor="Transparent"
+                Clicked="CaixaButton_Clicked"/>
 
-        <Image Source="caixa.png"
-               Grid.Row="0"
-               HorizontalOptions="Start"
-               VerticalOptions="Start"
-               HeightRequest="50"
-               WidthRequest="50"
-               Margin="10"/>   
-        <VerticalStackLayout Grid.Row="1"
-                                     VerticalOptions="Center"
-                                     Spacing="10"
-                                     Padding="10">
-                        <Label Text="Nome do Produto:" 
-                               TextColor="{DynamicResource AppTextColor}"/>
-                        <Entry x:Name="nomeProd" Placeholder="Digite o nome do produto" 
-                               TextColor="{DynamicResource AppTextColor}"
-                               BackgroundColor="{DynamicResource AppButtonColor}"/>
+            <ImageButton
+                Grid.Column="1"
+                WidthRequest="40"
+                HeightRequest="40"
+                CornerRadius="20"
+                BorderColor="Transparent"
+                Clicked="Button_Clicked"
+                BackgroundColor="{DynamicResource PageBackgroundColor}"
+                Source="{DynamicResource AppSolImage}"/>
+        </Grid>
 
-                        <Label Text="Descrição do Produto:"
-                               TextColor="{DynamicResource AppTextColor}"/>
-                        <Entry x:Name="descProd" Placeholder="Descreva o produto" 
-                               TextColor="{DynamicResource AppTextColor}"
-                               BackgroundColor="{DynamicResource AppButtonColor}"/>
+        <VerticalStackLayout Grid.Row="1" 
+                            VerticalOptions="Center" 
+                            Spacing="15"
+                            Padding="30,0">
 
-                        <Label Text="Categoria do Produto:"
-                               TextColor="{DynamicResource AppTextColor}"/>
-                        <Entry x:Name="categoriaProd" Placeholder="Qual a categoria do produto"
-                               TextColor="{DynamicResource AppTextColor}"
-                               BackgroundColor="{DynamicResource AppButtonColor}"/>
+            <Label Text="Nome do Produto:" 
+                   FontSize="14"
+                   TextColor="{DynamicResource AppTextColor}"/>
+            <Entry x:Name="nomeProd" 
+                   Placeholder="Digite o nome do produto" 
+                   HeightRequest="50"
+                   FontSize="14"
+                   TextColor="{DynamicResource AppTextColor}"
+                   BackgroundColor="{DynamicResource AppButtonColor}"/>
 
-                        <Label Text="Preço do Produto:" TextColor="{DynamicResource AppTextColor}"/>
-                        <Entry x:Name="precoProd" Placeholder="Qual o preço do produto" Keyboard="Numeric" TextColor="{DynamicResource AppTextColor}" 
-                               BackgroundColor="{DynamicResource AppButtonColor}"/>
+            <Label Text="Descrição do Produto:"
+                   FontSize="14"
+                   TextColor="{DynamicResource AppTextColor}"/>
+            <Entry x:Name="descProd" 
+                   Placeholder="Descreva o produto" 
+                   HeightRequest="50"
+                   FontSize="14"
+                   TextColor="{DynamicResource AppTextColor}"
+                   BackgroundColor="{DynamicResource AppButtonColor}"/>
 
-                        
-            </VerticalStackLayout>
-                        <Button
-                    x:Name="btnVoltar"
+            <Label Text="Categoria do Produto:"
+                   FontSize="14"
+                   TextColor="{DynamicResource AppTextColor}"/>
+            <Entry x:Name="categoriaProd" 
+                   Placeholder="Qual a categoria do produto"
+                   HeightRequest="50"
+                   FontSize="14"
+                   TextColor="{DynamicResource AppTextColor}"
+                   BackgroundColor="{DynamicResource AppButtonColor}"/>
+
+            <Label Text="Preço do Produto:" 
+                   FontSize="14"
+                   TextColor="{DynamicResource AppTextColor}"/>
+            <Entry x:Name="precoProd" 
+                   Placeholder="Qual o preço do produto" 
+                   Keyboard="Numeric"
+                   HeightRequest="50"
+                   FontSize="14"
+                   TextColor="{DynamicResource AppTextColor}"
+                   BackgroundColor="{DynamicResource AppButtonColor}"/>
+        </VerticalStackLayout>
+
+        <Grid Grid.Row="2" Padding="20" ColumnDefinitions="*,*">
+            <Button x:Name="btnVoltar"
                     Text="Voltar"
-                    Grid.Row="2"
+                    Grid.Column="0"
                     Clicked="btnVoltar_Clicked"
-                    HorizontalOptions="Start"
-                    Margin="10"
-                    HeightRequest="45"
-                    WidthRequest="100"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    FontSize="14"
+                    Margin="0,0,10,0"
+                    HorizontalOptions="Fill"
                     TextColor="{DynamicResource AppTextColor}"
                     BackgroundColor="{DynamicResource AppButtonColor}"/>
 
-                    <Button
-                    x:Name="btnConcluirCadastro"
+            <Button x:Name="btnConcluirCadastro"
                     Text="Cadastrar"
-                    Grid.Row="2"
+                    Grid.Column="1"
                     Clicked="btnConcluirCadastro_Clicked"
-                    HorizontalOptions="End"
-                    Margin="10"
-                    HeightRequest="45"
-                    WidthRequest="100"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    FontSize="14"
+                    Margin="10,0,0,0"
+                    HorizontalOptions="Fill"
                     TextColor="{DynamicResource AppTextColor}"
-                    BackgroundColor="{DynamicResource AppButtonColor}"/>    
+                    BackgroundColor="{DynamicResource AppButtonColor}"/>
+        </Grid>
     </Grid>
 </ContentPage>

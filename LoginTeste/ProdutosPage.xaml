@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadastro.ProdutosPage"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <ImageButton Grid.Row="0"
+            HorizontalOptions="End"
+            VerticalOptions="Start"
+            Margin="10"
+            WidthRequest="50"
+            HeightRequest="50"
+            CornerRadius="50"
+            BorderColor="Transparent"
+            Clicked="Button_Clicked"
+            BackgroundColor="{DynamicResource PageBackgroundColor}"
+            Source="{DynamicResource AppSolImage}"/>
+
+        <Image Source="caixa.png"
+               Grid.Row="0"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               HeightRequest="50"
+               WidthRequest="50"
+               Margin="10"/>
+
+        <VerticalStackLayout 
+                             Grid.Row="1"
+                             VerticalOptions="Start"
+                             Spacing="10"
+                             Padding="10">
+            <Label Text="Lista de Produtos" TextColor="{DynamicResource AppTextColor}" FontSize="20" HorizontalOptions="Center" Margin="0,10"/>
+
+            <CollectionView x:Name="listaProdutosView">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="Gray" BackgroundColor="{DynamicResource AppButtonColor}" CornerRadius="10" Padding="10" Margin="5">
+                            <VerticalStackLayout>
+                                <Label Text="{Binding nomeProd}" FontAttributes="Bold" FontSize="18" TextColor="{DynamicResource AppTextColor}"/>
+                                <Label Text="{Binding descProd}" TextColor="{DynamicResource AppTextColor}"/>
+                                <Label Text="{Binding categoriaProd}" TextColor="{DynamicResource AppTextColor}" />
+                                <Label Text="{Binding precoProd, StringFormat='Preço: {0:C}'}" TextColor="{DynamicResource AppTextColor}" />
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+
+        </VerticalStackLayout>
+        <Button
+               x:Name="btnVoltar2"
+               Text="Voltar"
+               Grid.Row="2"
+               Clicked="btnVoltar_Clicked2"
+               VerticalOptions="End"
+               HorizontalOptions="Center"
+               Margin="10"
+               HeightRequest="45"
+               WidthRequest="100"
+               TextColor="{DynamicResource AppTextColor}"
+               BackgroundColor="{DynamicResource AppButtonColor}"
+               />
+    </Grid>
+</ContentPage>

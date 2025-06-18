@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 24 24"
+   fill="#000000"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="appicon.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.461875"
+     inkscape:cx="517.45602"
+     inkscape:cy="836.80649"
+     inkscape:window-width="1124"
+     inkscape:window-height="961"
+     inkscape:window-x="783"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg5" />
+  <g
+     id="SVGRepo_bgCarrier"
+     stroke-width="0" />
+  <g
+     id="SVGRepo_tracerCarrier"
+     stroke-linecap="round"
+     stroke-linejoin="round" />
+  <g
+     id="SVGRepo_iconCarrier"
+     style="stroke:#000000;stroke-opacity:1">
+    <defs
+       id="defs1">
+      <path
+         id="box-a"
+         d="M0,9 L18,9 L18,12 L0,12 L0,9 Z M7,0 L11,0 L11,7 L7,7 L7,0 Z" />
+      <path
+         id="box-c"
+         d="M14,8 L14,14 C14,14.5522847 13.5522847,15 13,15 L7,15 C6.44771525,15 6,14.5522847 6,14 L6,8 L2,8 L2,18 L18,18 L18,8 L14,8 Z M12,8 L8,8 L8,13 L12,13 L12,8 Z M2,6 L18,6 L15,2 L5,2 L2,6 Z M0,18 L0,6 C0,5.56725957 0.140355744,5.14619234 0.4,4.8 L3.4,0.8 C3.77770876,0.296388315 4.37048539,0 5,0 L15,0 C15.6295146,0 16.2222912,0.296388315 16.6,0.8 L19.6,4.8 C19.8596443,5.14619234 20,5.56725957 20,6 L20,18 C20,19.1045695 19.1045695,20 18,20 L2,20 C0.8954305,20 0,19.1045695 0,18 Z" />
+    </defs>
+    <g
+       fill="none"
+       fill-rule="evenodd"
+       transform="translate(2 2)"
+       id="g5"
+       style="stroke:#000000;stroke-opacity:1">
+      <g
+         transform="translate(1 7)"
+         id="g3"
+         style="stroke:#000000;stroke-opacity:1">
+        <mask
+           id="box-b"
+           fill="#ffffff">
+          <use
+             xlink:href="#box-a"
+             id="use1" />
+        </mask>
+        <use
+           fill="#D8D8D8"
+           xlink:href="#box-a"
+           id="use2"
+           style="stroke:#000000;stroke-opacity:1" />
+        <g
+           fill="#EFE4D2"
+           mask="url(#box-b)"
+           id="g2"
+           style="stroke:#000000;stroke-opacity:1">
+          <rect
+             width="24"
+             height="24"
+             transform="translate(-3 -9)"
+             id="rect2"
+             style="stroke:#000000;stroke-opacity:1" />
+        </g>
+      </g>
+      <mask
+         id="box-d"
+         fill="#ffffff">
+        <use
+           xlink:href="#box-c"
+           id="use3" />
+      </mask>
+      <use
+         fill="#000000"
+         fill-rule="nonzero"
+         xlink:href="#box-c"
+         id="use4"
+         style="stroke:#000000;stroke-opacity:1" />
+      <g
+         fill="#954C2E"
+         mask="url(#box-d)"
+         id="g4"
+         style="stroke:#000000;stroke-opacity:1">
+        <rect
+           width="24"
+           height="24"
+           transform="translate(-2 -2)"
+           id="rect4"
+           style="stroke:#000000;stroke-opacity:1" />
+      </g>
+    </g>
+  </g>
+  <path
+     style="fill:#8ed371;fill-opacity:0;stroke:#000000;stroke-width:2.16509;stroke-opacity:1"
+     d="m 173.66788,243.03112 c 2.91773,-3.87009 19.71646,-26.27875 37.33052,-49.79702 l 32.02557,-42.76049 157.24309,0.0868 157.24309,0.0868 35.72395,47.85317 c 19.64817,26.31925 36.04871,48.68883 36.44564,49.71019 0.39857,1.02554 -102.71723,1.85702 -230.29757,1.85702 H 168.36292 Z"
+     id="path14"
+     transform="scale(0.03)" />
+  <path
+     style="fill:#131d4f;fill-opacity:1;stroke:#000000;stroke-width:2.16509;stroke-opacity:1"
+     d="m 208.88712,200.329 35.84261,-47.6903 h 155.66265 155.66266 l 33.94738,45.62545 c 18.67107,25.094 33.28836,46.2848 32.48286,47.09067 -0.8055,0.80586 -102.2592,1.73504 -225.45266,2.06485 l -223.98811,0.59964 z"
+     id="path15"
+     transform="scale(0.03)" />
+  <path
+     style="fill:#131d4f;fill-opacity:1;stroke:#000000;stroke-width:2.16509;stroke-opacity:1"
+     d="m 527.39907,575.97361 c 11.72618,-7.02939 20.17509,-20.23105 22.66124,-35.4088 1.10662,-6.75584 2.01768,-51.98565 2.02458,-100.51068 l 0.0125,-88.22734 h 48.71448 48.71448 v 114.74966 114.74967 l -65.49391,-0.0205 -65.49391,-0.0205 z"
+     id="path22"
+     transform="scale(0.03)" />
+  <path
+     style="fill:#131d4f;fill-opacity:1;stroke:#000000;stroke-width:2.16509;stroke-opacity:1"
+     d="M 151.55616,466.57645 V 351.82679 h 48.71448 48.71447 l 0.0212,95.80514 0.0212,95.80515 5.11773,10.82544 c 4.99289,10.56137 13.17108,19.72501 21.90356,24.54287 3.23827,1.78663 -11.91206,2.40565 -60.08119,2.45489 l -64.41136,0.0658 z"
+     id="path23"
+     transform="scale(0.03)" />
+</svg>

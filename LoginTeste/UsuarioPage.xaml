@@ -63,13 +63,14 @@
             Padding="20,10"
             ColumnDefinitions="1*,1*" 
             HorizontalOptions="Fill"
-            ColumnSpacing="10">
+            ColumnSpacing="10"
+            BackgroundColor="{DynamicResource FooterColor}">
 
         <Button
             Grid.Column="0"
             Text="Logout"
             Clicked="Logout_Clicked"
-            HeightRequest="60"
+            HeightRequest="50"
             WidthRequest="100"
             HorizontalOptions="Center"
             CornerRadius="5"
@@ -83,7 +84,7 @@
             Grid.Column="1"
             Text="Voltar"
             Clicked="btnVoltar_Clicked"
-            HeightRequest="60"
+            HeightRequest="50"
             WidthRequest="100" 
             HorizontalOptions="Center"
             CornerRadius="5"

@@ -54,13 +54,13 @@
             </CollectionView>
 
 
-        </VerticalStackLayout>
+        </VerticalStackLayout >
+
+        <VerticalStackLayout Grid.Row="2" BackgroundColor="{DynamicResource FooterColor}">
         <Button
                x:Name="btnVoltar2"
                Text="Voltar"
-               Grid.Row="2"
                Clicked="btnVoltar_Clicked2"
-               VerticalOptions="End"
                HorizontalOptions="Center"
                Margin="10"
                HeightRequest="45"
@@ -68,5 +68,6 @@
                TextColor="{DynamicResource AppTextColor}"
                BackgroundColor="{DynamicResource AppButtonColor}"
                />
+        </VerticalStackLayout>
     </Grid>
 </ContentPage>
